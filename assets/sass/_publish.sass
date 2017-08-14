@@ -20,7 +20,27 @@ $susy: (debug: (image: hide))
 .search_area
 	+susy-breakpoint($breakpoint_pad, $w_pad)
 		+container
-
+		width: 100%
+		height: 90px
+		background: #e3f5ff
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-bottom: 20px
+		input[type="text"]
+			width: 80%
+			height: 40px
+			padding-left: 10px
+		::placeholder
+			color: #c0c0c0
+		.submit
+			width: 40px
+			height: 40px
+			background: #609fd5
+			display: flex
+			justify-content: center
+			align-items: center
+			color: #FFF
 
 	+susy-breakpoint($breakpoint_desktop, $w_desktop)
 		+container
@@ -30,6 +50,7 @@ $susy: (debug: (image: hide))
 		display: flex
 		justify-content: center
 		align-items: center
+		margin-bottom: 20px
 		input[type="text"]
 			width: 900px
 			height: 40px
@@ -63,13 +84,127 @@ $susy: (debug: (image: hide))
 
 
 
+.data_detail_table
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		h6
+			font-size: 16px
+			line-height: 1.2
+			color: #555
+		h5
+			font-size: 16px
+			padding: 5px 0px
+			line-height: 1.4
+			color: #0a93a1
+		
+		.r-row
+			border-bottom: 1px dashed #e1e1e1
+			padding: 10px 20px
+			margin-bottom: 20px
+			a 
+				display: block
+				font-size: 18px
+				color: #609fd5
+				margin-bottom: 5px
+			p
+				display: block
+				float: left
+				font-size: 14px
+				padding: 5px 0px
+				line-height: 1.2
+				color: #888
+			
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		h6
+			font-size: 16px
+			line-height: 1.2
+			color: #555
+		h5
+			font-size: 18px
+			padding: 5px 0px
+			line-height: 1.4
+			color: #0a93a1
+	
+		
+		.r-row
+			border-bottom: 1px dashed #e1e1e1
+			padding: 10px 0
+			margin-bottom: 20px
+			a 
+				display: block
+				font-size: 18px
+				color: #609fd5
+			p
+				display: block
+				float: left
+				font-size: 14px
+				padding: 5px 0px
+				line-height: 1.2
+				color: #888
+			
+			
+
+.bookcover
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+
+			
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		padding: 0 10px
+		.c-cover
+			border: 1px solid #eee
 
 
 
+.bookinfo
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+
+			
 
 
-
-
-
-
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		margin-top: 5px
+		h5 
+			font-size: 28px
+			color: #2a6698
+			margin-left: 5px
+			margin-bottom: 10px
+		.keyword_section
+			margin-bottom: 20px
+			padding: 0 5px
+			.keyword
+				border: 1px solid #c0c0c0
+				padding: 3px 18px
+				float: left
+				font-size: 14px
+				color: #888
+				margin-right: 10px
+				margin-bottom: 8px
+		.description
+			padding: 5px 0
+			border-bottom: 1px solid #eee	
+			.col-t
+				+span(3)
+				font-size: 16px
+				padding: 5px 0px
+				line-height: 1.4
+				color: #555
+				font-weight: bold
+			.col-des
+				+span(9)
+				font-size: 16px
+				padding: 5px 0px
+				line-height: 1.4
+				color: #888
+		.bookfiles
+			background: #eee
+			margin-top: 30px
 

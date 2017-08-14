@@ -1,69 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="/favicon.ico" />
-<meta name="keywords" content="">
-<meta name="description" content="">
-<title>台北市政府出版專區</title>
-
-
-<link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/magnific-popup.css">
-<link href="css/jquery.bxslider.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/module.css">
-
-<script src="js/jquery-1.11.1.min.js"></script>
-
-<script type="text/javascript" src="http://momentjs.com/downloads/moment.min.js"></script>
-<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-
-<script src="js/jquery.bxslider.min.js"></script>
-<script src="js/ui.js"></script>
-
-<script>
-	$(function(){
-		$('.open-popup-link').magnificPopup({
-		  type:'inline',
-		  midClick: true
-		  // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-		});
-	});
-</script>
-
-
-</head>
-<body>
-
-
-<div class="header_wrapper">
-	<header>
-		<div class="logo">台北市政府出版專區</div>
-
-		<div class="deskmenu">
-		<ul>
-			<li><a href="">出版品查詢</a></li>
-			<div class="lll"></div>
-			<li><a href="">出版品目錄</a></li>
-			<div class="lll"></div>
-			<li><a href="">相關網站</a></li>
-			<div class="lll"></div>
-			<li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i> 意見回饋</a></li>
-
-
-		</ul>
-	</div>
-
-	</header>
-</div>
-
-
-<!-- mobile menu -->
-
-
+{# index.twig #}
+{% extends "/_template/layout.twig" %}
+{% block page %}
 
 
 <div class="search_area">
@@ -235,46 +172,6 @@
 					<p>10290次瀏覽</p>
 					<div class="clear"></div>
 				</div>
-				<div class="r-row">
-					<a href="">台北市政府公報（106年度）</a>
-					<p>2017-01-26｜</p>
-					<p>出版｜</p>
-					<p>期刊｜</p>
-					<p>台北市政府秘書處｜</p>
-					<p>9090次下載｜</p>
-					<p>10290次瀏覽</p>
-					<div class="clear"></div>
-				</div>
-				<div class="r-row">
-					<a href="">台北市政府公報（106年度）</a>
-					<p>2017-01-26｜</p>
-					<p>出版｜</p>
-					<p>期刊｜</p>
-					<p>台北市政府秘書處｜</p>
-					<p>9090次下載｜</p>
-					<p>10290次瀏覽</p>
-					<div class="clear"></div>
-				</div>
-				<div class="r-row">
-					<a href="">台北市政府公報（106年度）</a>
-					<p>2017-01-26｜</p>
-					<p>出版｜</p>
-					<p>期刊｜</p>
-					<p>台北市政府秘書處｜</p>
-					<p>9090次下載｜</p>
-					<p>10290次瀏覽</p>
-					<div class="clear"></div>
-				</div>
-				<div class="r-row">
-					<a href="">台北市政府公報（106年度）</a>
-					<p>2017-01-26｜</p>
-					<p>出版｜</p>
-					<p>期刊｜</p>
-					<p>台北市政府秘書處｜</p>
-					<p>9090次下載｜</p>
-					<p>10290次瀏覽</p>
-					<div class="clear"></div>
-				</div>
 
 				
 				
@@ -306,29 +203,4 @@
 
 
 
-
-<div class="footer_wrapper">
-	<footer>
-		<div class="copyright">
-			 <p>02-27208889(代表號), 臺北市民當家熱線 1999(免付費電話服務，公共電話及預付卡除外) 轉 2858 或 2885</p>
-			 <p>services@mail.taipei.gov.tw</p>
-			 <p>11008 臺北市信義區市府路1號</p>
-			<p>臺北市政府資訊局 版權所有 © 2017 Taipei City Government. All Rights Reserved. </p>
-		</div>
-
-		<div class="footer_link">
-			<a href="">隱私權保護政策  </a>
-			<a href="">隱私權及資訊安全政策 </a>
-			<a href="">網站地圖  </a>
-		</div>
-	</footer>
-</div>
-
-
-
-
-
-
-
-</body>
-</html>
+{% endblock %}
