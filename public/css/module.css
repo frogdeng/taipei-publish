@@ -2429,7 +2429,20 @@ a {
     display: block;
     clear: both; }
   .bookcover .c-cover {
-    border: 1px solid #eee; } }
+    border: 1px solid #eee; }
+  .bookcover .content_slider {
+    border: 1px solid #eee;
+    padding: 5px;
+    margin-top: 10px; }
+  .bookcover .content_slider .bookinside {
+    margin-right: 2px; }
+  .bookcover .content_slider .bookinside img {
+    width: 100%; }
+  .bookcover .content_slider .slick-slide {
+    margin: 0px 5px;
+    margin-bottom: 0; }
+  .bookcover .slick-dots {
+    display: none !important; } }
 
 @media (min-width: 0) and (max-width: 890px) {
   .bookinfo {
@@ -2490,8 +2503,150 @@ a {
     line-height: 1.4;
     color: #888; }
   .bookinfo .bookfiles {
+    border: 1px solid #eee;
+    margin-top: 30px;
+    padding: 20px; }
+  .bookinfo .bookfiles .bookfiles_title {
     background: #eee;
-    margin-top: 30px; } }
+    height: 40px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 18px; }
+  .bookinfo .bookfiles .download_total {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 20px;
+    margin-bottom: 20px; }
+  .bookinfo .bookfiles .download_total .t-start {
+    margin-right: 25px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center; }
+  .bookinfo .bookfiles .download_total .t-start img {
+    width: 55px;
+    margin-right: 25px; }
+  .bookinfo .bookfiles .download_total .t-start .t-text h6 {
+    font-size: 20px;
+    color: #222; }
+  .bookinfo .bookfiles .download_total .t-start .t-text p {
+    font-size: 14px;
+    color: #888; }
+  .bookinfo .bookfiles .download_total .downloadicon {
+    display: block;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #c0c0c0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: all .3s; }
+  .bookinfo .bookfiles .download_total .downloadicon:hover {
+    background-color: #2a6698;
+    border: 1px solid #2a6698;
+    color: #FFF; }
+  .bookinfo .bookfiles .thisissue {
+    background-color: #eee;
+    height: 40px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 18px; }
+  .bookinfo .bookfiles .issue_contnet {
+    padding: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #eee; }
+  .bookinfo .bookfiles .issue_contnet .t-text h6 {
+    font-size: 20px;
+    color: #222; }
+  .bookinfo .bookfiles .issue_contnet .t-text p {
+    font-size: 14px;
+    color: #888; }
+  .bookinfo .bookfiles .issue_contnet img {
+    width: 55px;
+    cursor: pointer; }
+  .bookinfo .showmore {
+    background: #03a9f4;
+    color: #FFF;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 40px;
+    font-size: 16px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
+@media (min-width: 0) and (max-width: 890px) {
+  .morebooks {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto; }
+  .morebooks:after {
+    content: " ";
+    display: block;
+    clear: both; } }
+
+@media (min-width: 891px) {
+  .morebooks {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 1px solid #c0c0c0;
+    padding: 15px; }
+  .morebooks:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .morebooks .bookitem {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .morebooks .bookitem img {
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #eee; }
+  .morebooks .bookitem p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.3; }
+  .morebooks .slick-slide {
+    margin: 0px 20px; } }
+
+.slick-prev:before, .slick-next:before {
+  color: black; }
 
 body {
   background: #FFF;
