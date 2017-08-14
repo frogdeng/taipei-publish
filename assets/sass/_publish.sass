@@ -74,10 +74,39 @@ $susy: (debug: (image: hide))
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
-		background: #999
-		height: 300px
-		margin-top: 30px
-		margin-bottom: 30px
+		// background: #eee
+		margin-top: 20px
+		margin-bottom: 20px
+		padding: 30px
+		.news_cross
+			border: 1px solid #eee
+			padding: 20px
+			h6
+				font-size: 25px
+				color: #0e61a5
+			.news_slider
+				+span(5)
+				+pre(.5)
+				.new_photo
+					img
+					 	width: 100%
+
+			.news_items
+				+span(6 omega)
+				.news_title
+					display: flex
+					justify-content: space-between
+					align-items: flex-start
+					padding: 8px 0
+					border-bottom: 1px solid #eee
+
+					p
+						font-size: 16px
+						color: #888
+						margin-right: 20px
+
+
+
 
 
 
@@ -158,8 +187,11 @@ $susy: (debug: (image: hide))
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
 		padding: 0 10px
+		margin-right: 20px
 		.c-cover
 			border: 1px solid #eee
+			img
+					width: 100%
 		.content_slider
 			border: 1px solid #eee
 			padding: 5px
@@ -207,14 +239,14 @@ $susy: (debug: (image: hide))
 			padding: 5px 0
 			border-bottom: 1px solid #eee
 			.col-t
-				+span(3)
+				+span(4)
 				font-size: 16px
 				padding: 5px 0px
 				line-height: 1.4
 				color: #555
 				font-weight: bold
 			.col-des
-				+span(9)
+				+span(8)
 				font-size: 16px
 				padding: 5px 0px
 				line-height: 1.4

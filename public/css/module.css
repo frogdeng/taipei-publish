@@ -775,7 +775,7 @@ a {
     margin-bottom: 40px;
     background: #FFF;
     padding: 10px 10px;
-    width: 23.33333%;
+    width: 31.66667%;
     float: left;
     margin-left: 0.83333%;
     margin-right: 0.83333%; }
@@ -789,7 +789,7 @@ a {
     margin-left: 0.83333%;
     margin-right: 0.83333%; }
   .data_container .data_detail {
-    width: 73.33333%;
+    width: 65%;
     float: left;
     margin-left: 0.83333%;
     margin-right: 0.83333%;
@@ -2330,14 +2330,45 @@ a {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    background: #999;
-    height: 300px;
-    margin-top: 30px;
-    margin-bottom: 30px; }
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px; }
   .news_info:after {
     content: " ";
     display: block;
-    clear: both; } }
+    clear: both; }
+  .news_info .news_cross {
+    border: 1px solid #eee;
+    padding: 20px; }
+  .news_info .news_cross h6 {
+    font-size: 25px;
+    color: #0e61a5; }
+  .news_info .news_cross .news_slider {
+    width: 40%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+    margin-left: 5%; }
+  .news_info .news_cross .news_slider .new_photo img {
+    width: 100%; }
+  .news_info .news_cross .news_items {
+    width: 48.33333%;
+    float: right;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%; }
+  .news_info .news_cross .news_items .news_title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee; }
+  .news_info .news_cross .news_items .news_title p {
+    font-size: 16px;
+    color: #888;
+    margin-right: 20px; } }
 
 @media (min-width: 0) and (max-width: 890px) {
   .data_detail_table {
@@ -2423,13 +2454,16 @@ a {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 10px; }
+    padding: 0 10px;
+    margin-right: 20px; }
   .bookcover:after {
     content: " ";
     display: block;
     clear: both; }
   .bookcover .c-cover {
     border: 1px solid #eee; }
+  .bookcover .c-cover img {
+    width: 100%; }
   .bookcover .content_slider {
     border: 1px solid #eee;
     padding: 5px;
@@ -2484,7 +2518,7 @@ a {
     padding: 5px 0;
     border-bottom: 1px solid #eee; }
   .bookinfo .description .col-t {
-    width: 23.33333%;
+    width: 31.66667%;
     float: left;
     margin-left: 0.83333%;
     margin-right: 0.83333%;
@@ -2494,7 +2528,7 @@ a {
     color: #555;
     font-weight: bold; }
   .bookinfo .description .col-des {
-    width: 73.33333%;
+    width: 65%;
     float: left;
     margin-left: 0.83333%;
     margin-right: 0.83333%;
