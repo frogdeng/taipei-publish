@@ -3017,7 +3017,7 @@ a {
 .header_wrapper {
   background: url("../img/top_cloud.png") #0e61a5 right;
   background-repeat: no-repeat;
-  width: 100%; }
+  background-size: cover; }
 
 @media (min-width: 0) and (max-width: 890px) {
   header {
