@@ -247,9 +247,11 @@ $susy: (debug: (image: hide))
 			width: 50%
 			font-size: 16px
 			color: #888
-			margin-right: 20px
+			margin-right: 10px
+		.showlist
+			display: none
 
-
+		
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
@@ -263,7 +265,7 @@ $susy: (debug: (image: hide))
 		align-items: center
 
 		.data_select
-			width: 50%
+			width: 40%
 			display: flex
 			justify-content: flex-end
 			align-items: center
@@ -271,7 +273,7 @@ $susy: (debug: (image: hide))
 				height: 35px
 				border: 1px solid #c0c0c0
 				display: block
-				width: 60%
+				width: 100%
 				padding: 5px 10px
 				font-size: 16px !important
 				color: #999
@@ -282,12 +284,29 @@ $susy: (debug: (image: hide))
 				background: url(../img/arrow.png) no-repeat right 8px
 
 		.data_summary
-			width: 50%
+			width: 30%
 			font-size: 16px
 			color: #888
 			margin-right: 20px
 
-
+		.showlist
+			width: 120px
+			height: 30px
+			background: #eee
+			cursor: pointer
+			color: #888
+			margin-right: 13px
+			font-size: 14px
+			display: flex
+			justify-content: center
+			align-items: center
+			transition: all .3s
+			i 
+				font-size: 15px
+				margin-right: 5px
+			&:hover
+				background: #609fd5
+				color: #FFF
 
 
 
@@ -322,12 +341,16 @@ $susy: (debug: (image: hide))
 
 
 		.data_detail
+			+span(6)
 			margin-bottom: 30px
 			.publish_title
+				width: 100%
 				padding: 0 20px
 				font-size: 25px
 				margin-top: 10px
 				color: #0e61a5
+				border-bottom: 1px solid #eee
+
 
 		.asidemenu_wrap
 			margin-bottom: 40px
@@ -359,6 +382,8 @@ $susy: (debug: (image: hide))
 				font-size: 25px
 				margin-top: 10px
 				color: #0e61a5
+				border-bottom: 1px solid #eee
+
 
 .show_aisde_postsearch
 	left: 0 !important

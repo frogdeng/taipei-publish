@@ -264,6 +264,12 @@ $susy: (debug: (image: hide))
 		.slick-dots
 			display: none !important
 
+.fb
+	color: #3b5998
+.google
+	color: #db4437
+.twitter
+	color: #1DA1F2
 
 
 .bookinfo
@@ -271,11 +277,34 @@ $susy: (debug: (image: hide))
 		+container
 		margin-top: 5px
 		padding: 0 20px
-		h5
-			font-size: 28px
-			color: #2a6698
-			margin-left: 5px
+		.bookinfo-t
+			display: flex
+			flex-direction: column
+			align-items: center
+			justify-content: flex-start
 			margin-bottom: 10px
+			// border-bottom: 3px solid #eee
+	
+			h5
+				font-size: 28px
+				color: #2a6698
+				margin-left: 5px
+				margin-bottom: 10px
+			.socialmedia
+				margin-bottom: 10px
+				.socila_icon
+					float: left
+					margin-right: 10px
+					width: 35px
+					height: 35px
+					border-radius: 50%
+					border: 1px solid #eee
+					display: flex
+					justify-content: center
+					align-items: center
+					i 
+						font-size: 21px
+
 		.keyword_section
 			margin-bottom: 20px
 			padding: 0 5px
@@ -357,21 +386,23 @@ $susy: (debug: (image: hide))
 				align-items: center
 				font-size: 18px
 			.issue_contnet
-				padding: 20px
+				padding: 10px
 				display: flex
 				justify-content: space-between
 				align-items: center
 				border-bottom: 1px solid #eee
-
 				.t-text
-					h6
-						font-size: 18px
-						color: #222
-					p
-						font-size: 14px
-						color: #888
+					width: 25%
+					font-size: 16px
+					color: #222
+				.t-text-des	
+					width: 50%
+					color: #222
+					font-size: 14px
+					color: #888
+
 				img
-					width: 55px
+					width: 40px
 					cursor: pointer
 
 		.showmore
@@ -392,13 +423,34 @@ $susy: (debug: (image: hide))
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
 		margin-top: 5px
-		h5
-			font-size: 28px
-			color: #2a6698
-			margin-left: 5px
+		.bookinfo-t
+			display: flex
+			justify-content: space-between
+			align-items: center
 			margin-bottom: 10px
+			// border-bottom: 3px solid #eee
+
+			h5
+				font-size: 28px
+				color: #2a6698
+				margin-left: 5px
+				margin-bottom: 10px
+			.socialmedia
+				.socila_icon
+					float: left
+					margin-right: 10px
+					width: 35px
+					height: 35px
+					border-radius: 50%
+					border: 1px solid #eee
+					display: flex
+					justify-content: center
+					align-items: center
+					i 
+						font-size: 21px
+
 		.keyword_section
-			margin-bottom: 20px
+			margin-bottom: 10px
 			padding: 0 5px
 			.keyword
 				border: 1px solid #c0c0c0
@@ -487,14 +539,16 @@ $susy: (debug: (image: hide))
 				border-bottom: 1px solid #eee
 
 				.t-text
-					h6
-						font-size: 18px
-						color: #222
-					p
-						font-size: 14px
-						color: #888
+					width: 18%
+					font-size: 18px
+					color: #222
+				.t-text-des	
+					width: 70%
+					color: #222
+					font-size: 14px
+					color: #888
 				img
-					width: 55px
+					width: 45px
 					cursor: pointer
 
 		.showmore

@@ -666,7 +666,9 @@ a {
     width: 50%;
     font-size: 16px;
     color: #888;
-    margin-right: 20px; } }
+    margin-right: 10px; }
+  .data_collection .showlist {
+    display: none; } }
 
 @media (min-width: 891px) {
   .data_collection {
@@ -688,7 +690,7 @@ a {
     display: block;
     clear: both; }
   .data_collection .data_select {
-    width: 50%;
+    width: 40%;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: end;
@@ -699,7 +701,7 @@ a {
     height: 35px;
     border: 1px solid #c0c0c0;
     display: block;
-    width: 60%;
+    width: 100%;
     padding: 5px 10px;
     font-size: 16px !important;
     color: #999;
@@ -709,10 +711,31 @@ a {
     -webkit-appearance: none;
     background: url(../img/arrow.png) no-repeat right 8px; }
   .data_collection .data_summary {
-    width: 50%;
+    width: 30%;
     font-size: 16px;
     color: #888;
-    margin-right: 20px; } }
+    margin-right: 20px; }
+  .data_collection .showlist {
+    width: 120px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+    color: #888;
+    margin-right: 13px;
+    font-size: 14px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: all .3s; }
+  .data_collection .showlist i {
+    font-size: 15px;
+    margin-right: 5px; }
+  .data_collection .showlist:hover {
+    background: #609fd5;
+    color: #FFF; } }
 
 @media (min-width: 0) and (max-width: 890px) {
   .data_container {
@@ -747,12 +770,18 @@ a {
     font-size: 40px;
     color: #c0c0c0; }
   .data_container .data_detail {
+    width: 95%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     margin-bottom: 30px; }
   .data_container .data_detail .publish_title {
+    width: 100%;
     padding: 0 20px;
     font-size: 25px;
     margin-top: 10px;
-    color: #0e61a5; }
+    color: #0e61a5;
+    border-bottom: 1px solid #eee; }
   .data_container .asidemenu_wrap {
     margin-bottom: 40px;
     padding: 10px 10px;
@@ -797,7 +826,8 @@ a {
   .data_container .data_detail .publish_title {
     font-size: 25px;
     margin-top: 10px;
-    color: #0e61a5; } }
+    color: #0e61a5;
+    border-bottom: 1px solid #eee; } }
 
 .show_aisde_postsearch {
   left: 0 !important; }
@@ -2545,6 +2575,15 @@ a {
   .bookcover .slick-dots {
     display: none !important; } }
 
+.fb {
+  color: #3b5998; }
+
+.google {
+  color: #db4437; }
+
+.twitter {
+  color: #1DA1F2; }
+
 @media (min-width: 0) and (max-width: 890px) {
   .bookinfo {
     max-width: 600px;
@@ -2556,11 +2595,38 @@ a {
     content: " ";
     display: block;
     clear: both; }
-  .bookinfo h5 {
+  .bookinfo .bookinfo-t {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 10px; }
+  .bookinfo .bookinfo-t h5 {
     font-size: 28px;
     color: #2a6698;
     margin-left: 5px;
     margin-bottom: 10px; }
+  .bookinfo .bookinfo-t .socialmedia {
+    margin-bottom: 10px; }
+  .bookinfo .bookinfo-t .socialmedia .socila_icon {
+    float: left;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .bookinfo .bookinfo-t .socialmedia .socila_icon i {
+    font-size: 21px; }
   .bookinfo .keyword_section {
     margin-bottom: 20px;
     padding: 0 5px; }
@@ -2661,7 +2727,7 @@ a {
     align-items: center;
     font-size: 18px; }
   .bookinfo .bookfiles .issue_contnet {
-    padding: 20px;
+    padding: 10px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
@@ -2669,14 +2735,17 @@ a {
     -ms-flex-align: center;
     align-items: center;
     border-bottom: 1px solid #eee; }
-  .bookinfo .bookfiles .issue_contnet .t-text h6 {
-    font-size: 18px;
+  .bookinfo .bookfiles .issue_contnet .t-text {
+    width: 25%;
+    font-size: 16px;
     color: #222; }
-  .bookinfo .bookfiles .issue_contnet .t-text p {
+  .bookinfo .bookfiles .issue_contnet .t-text-des {
+    width: 50%;
+    color: #222;
     font-size: 14px;
     color: #888; }
   .bookinfo .bookfiles .issue_contnet img {
-    width: 55px;
+    width: 40px;
     cursor: pointer; }
   .bookinfo .showmore {
     background: #03a9f4;
@@ -2704,13 +2773,36 @@ a {
     content: " ";
     display: block;
     clear: both; }
-  .bookinfo h5 {
+  .bookinfo .bookinfo-t {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px; }
+  .bookinfo .bookinfo-t h5 {
     font-size: 28px;
     color: #2a6698;
     margin-left: 5px;
     margin-bottom: 10px; }
+  .bookinfo .bookinfo-t .socialmedia .socila_icon {
+    float: left;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .bookinfo .bookinfo-t .socialmedia .socila_icon i {
+    font-size: 21px; }
   .bookinfo .keyword_section {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 0 5px; }
   .bookinfo .keyword_section .keyword {
     border: 1px solid #c0c0c0;
@@ -2818,14 +2910,17 @@ a {
     -ms-flex-align: center;
     align-items: center;
     border-bottom: 1px solid #eee; }
-  .bookinfo .bookfiles .issue_contnet .t-text h6 {
+  .bookinfo .bookfiles .issue_contnet .t-text {
+    width: 18%;
     font-size: 18px;
     color: #222; }
-  .bookinfo .bookfiles .issue_contnet .t-text p {
+  .bookinfo .bookfiles .issue_contnet .t-text-des {
+    width: 70%;
+    color: #222;
     font-size: 14px;
     color: #888; }
   .bookinfo .bookfiles .issue_contnet img {
-    width: 55px;
+    width: 45px;
     cursor: pointer; }
   .bookinfo .showmore {
     background: #03a9f4;
