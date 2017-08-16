@@ -230,11 +230,10 @@ header
 				display: block
 				position: relative
 				transition: all .1s
-
 				a
 					display: block
 					height: 60px
-					color: #FFF
+					color: #c0c0c0
 					font-weight: 700
 					border-bottom: 3px solid rgba(0,0,0,0)
 					font-size: 18px
@@ -250,7 +249,43 @@ header
 						color: #FFF
 						margin-right: 5px
 					&:hover
-						color: #eee
+						color: #FFF
+
+				ul
+					position: absolute
+					display: block
+					width: 140px
+					z-index: 1000
+					visibility: hidden
+					opacity: 0
+					top: 50px
+					left: 0px
+					transition: all .3s
+					a
+						display: block
+						height: auto
+						width: 140px
+						color: #FFF
+						background: rgba(4, 65, 115, .8)
+						border-bottom: 1px solid #99bfd4
+						line-height: 1.5
+						font-size: 13px
+						padding: 10px 0
+						text-align: center
+						transition: all .3s
+						&:hover
+							background: rgba(4, 65, 115, 1)
+
+				&:hover
+					ul
+						visibility: visible
+						opacity: 1
+
+
+
+
+
+
 
 
 

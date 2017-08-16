@@ -390,16 +390,16 @@ a {
     margin-left: auto;
     margin-right: auto;
     height: 50px;
-    padding: 0 20px;
+    padding: 0 30px;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
     display: -ms-flexbox;
     display: flex;
+    color: #888;
     -ms-flex-pack: start;
     justify-content: flex-start;
     -ms-flex-align: center;
     align-items: center;
-    color: #666;
     font-size: 16px; }
   .breac_crumbs:after {
     content: " ";
@@ -409,12 +409,12 @@ a {
     font-size: 16px;
     margin-right: 10px;
     margin-left: 10px;
-    color: #0a93a1; }
+    color: #2a6698; }
   .breac_crumbs a {
     font-size: 16px;
     margin-right: 10px;
     margin-left: 10px;
-    color: #888; } }
+    color: #555; } }
 
 @media (min-width: 0) and (max-width: 890px) {
   .search_condition {
@@ -3359,7 +3359,7 @@ a {
   .deskmenu ul li a {
     display: block;
     height: 60px;
-    color: #FFF;
+    color: #c0c0c0;
     font-weight: 700;
     border-bottom: 3px solid transparent;
     font-size: 18px;
@@ -3378,7 +3378,34 @@ a {
     color: #FFF;
     margin-right: 5px; }
   .deskmenu ul li a:hover {
-    color: #eee; } }
+    color: #FFF; }
+  .deskmenu ul li ul {
+    position: absolute;
+    display: block;
+    width: 140px;
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    top: 50px;
+    left: 0px;
+    transition: all .3s; }
+  .deskmenu ul li ul a {
+    display: block;
+    height: auto;
+    width: 140px;
+    color: #FFF;
+    background: rgba(4, 65, 115, 0.8);
+    border-bottom: 1px solid #99bfd4;
+    line-height: 1.5;
+    font-size: 13px;
+    padding: 10px 0;
+    text-align: center;
+    transition: all .3s; }
+  .deskmenu ul li ul a:hover {
+    background: #044173; }
+  .deskmenu ul li:hover ul {
+    visibility: visible;
+    opacity: 1; } }
 
 .hamburg-open {
   right: 0% !important;
