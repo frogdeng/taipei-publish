@@ -677,7 +677,7 @@ a {
     margin-right: auto;
     padding: 10px 0;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     border-bottom: 1px solid #eee;
     display: -ms-flexbox;
     display: flex;
@@ -780,6 +780,7 @@ a {
     padding: 0 20px;
     font-size: 25px;
     margin-top: 10px;
+    padding-bottom: 10px;
     color: #0e61a5;
     border-bottom: 1px solid #eee; }
   .data_container .asidemenu_wrap {
@@ -826,6 +827,7 @@ a {
   .data_container .data_detail .publish_title {
     font-size: 25px;
     margin-top: 10px;
+    padding-bottom: 10px;
     color: #0e61a5;
     border-bottom: 1px solid #eee; } }
 
@@ -3034,7 +3036,6 @@ a {
     margin-left: 2.5%;
     margin-right: 2.5%;
     padding: 0 10px;
-    border: 1px solid #eee;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -3043,6 +3044,8 @@ a {
     align-items: flex-end;
     margin-bottom: 20px; }
   .book_shelf .s-shelf .shelf_w .b-book img {
+    display: block;
+    border: 1px solid #eee;
     width: 100%; } }
 
 @media (min-width: 891px) {
@@ -3075,7 +3078,6 @@ a {
     float: left;
     margin-left: 0.83333%;
     margin-right: 0.83333%;
-    border: 1px solid #eee;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -3084,6 +3086,8 @@ a {
     align-items: flex-end;
     margin: 0 15px; }
   .book_shelf .s-shelf .shelf_w .b-book img {
+    display: block;
+    border: 1px solid #eee;
     width: 100%; } }
 
 body {
