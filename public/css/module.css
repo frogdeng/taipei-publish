@@ -3114,11 +3114,39 @@ a {
     justify-content: center;
     -ms-flex-align: end;
     align-items: flex-end;
-    margin: 0 15px; }
+    margin: 0 15px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; }
+  .book_shelf .s-shelf .shelf_w .b-book .bookname {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    padding: 5px;
+    background: rgba(2, 120, 144, 0.8);
+    font-size: 13px;
+    color: #FFF;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    bottom: -50%;
+    transition: all .3s; }
+  .book_shelf .s-shelf .shelf_w .b-book .bookname p {
+    font-size: 12px;
+    line-height: 1.2; }
   .book_shelf .s-shelf .shelf_w .b-book img {
     display: block;
     border: 1px solid #eee;
-    width: 100%; } }
+    width: 100%; }
+  .book_shelf .s-shelf .shelf_w .b-book:hover {
+    transform: scale(1.08); }
+  .book_shelf .s-shelf .shelf_w .b-book:hover .bookname {
+    opacity: 1;
+    bottom: 0%; } }
 
 body {
   background: #FFF;
