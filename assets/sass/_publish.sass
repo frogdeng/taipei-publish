@@ -658,28 +658,47 @@ $susy: (debug: (image: hide))
 	+susy-breakpoint($breakpoint_pad, $pad)
 		+container
 		.s-shelf
+			+span(6)
 			// background: url("../img/shelf.png") bottom
 			// background-size: 100%
 			// background-repeat: no-repeat
-			padding-bottom: 30px
-			display: flex
-			flex-direction: column
-			justify-content: center
-			align-items: center
+			padding-bottom: 10px
+			
 			.shelf_w
-				width: 100%
+				padding: 20px
 				margin-left: 0px
 				.b-book
 					+span(3)
-					padding: 0 10px
 					display: flex
 					justify-content: center
 					align-items: flex-end
+					transition: all .3s
+					position: relative
+					overflow: hidden
+					cursor: pointer
 					margin-bottom: 20px
+
+					.bookname
+						position: absolute
+						width: 100%
+						opacity: 1
+						padding: 5px
+						background: rgba(2,120,144, .8)
+						font-size: 13px
+						color: #FFF
+						display: flex
+						justify-content: center
+						align-items: center
+						bottom: 0%
+						transition: all .3s
+						p 
+							font-size: 12px
+							line-height: 1.2
 					img
 						display: block
 						border: 1px solid #eee
 						width: 100%
+				
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
