@@ -633,16 +633,18 @@ a {
     border-bottom: 1px solid #eee;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -ms-flex-align: center;
-    align-items: center; }
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: start;
+    align-items: flex-start; }
   .data_collection:after {
     content: " ";
     display: block;
     clear: both; }
   .data_collection .data_select {
-    width: 50%;
+    width: 100%;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: end;
@@ -663,12 +665,39 @@ a {
     -webkit-appearance: none;
     background: url(../img/arrow.png) no-repeat right 8px; }
   .data_collection .data_summary {
-    width: 50%;
+    width: 80%;
     font-size: 16px;
+    margin-bottom: 20px;
     color: #888;
     margin-right: 10px; }
-  .data_collection .showlist {
-    display: none; } }
+  .data_collection .show_switch {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+  .data_collection .show_switch .showlist {
+    width: 120px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+    color: #888;
+    margin-right: 13px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: all .3s; }
+  .data_collection .show_switch .showlist i {
+    font-size: 15px;
+    margin-right: 5px; } }
 
 @media (min-width: 891px) {
   .data_collection {
@@ -715,7 +744,16 @@ a {
     font-size: 16px;
     color: #888;
     margin-right: 20px; }
-  .data_collection .showlist {
+  .data_collection .show_switch {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+  .data_collection .show_switch .showlist {
     width: 120px;
     height: 30px;
     background: #eee;
@@ -730,10 +768,10 @@ a {
     -ms-flex-align: center;
     align-items: center;
     transition: all .3s; }
-  .data_collection .showlist i {
+  .data_collection .show_switch .showlist i {
     font-size: 15px;
     margin-right: 5px; }
-  .data_collection .showlist:hover {
+  .data_collection .show_switch .showlist:hover {
     background: #609fd5;
     color: #FFF; } }
 
