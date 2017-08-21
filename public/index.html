@@ -25,10 +25,17 @@
 
 <script>
 	$(document).on('ready', function() {
-		$(".regular").slick({
+		$(".regular-d").slick({
 			dots: false,
 			infinite: true,
 			slidesToShow: 4,
+			slidesToScroll: 3
+		});
+
+		$(".regular-m").slick({
+			dots: false,
+			infinite: true,
+			slidesToShow: 2,
 			slidesToScroll: 3
 		});
 		$(".bookinside").slick({
@@ -136,7 +143,7 @@
 		</div>
 		<div class="news_items">
 			<div class="news_t">
-				<h6>最新消息</h6> 
+				<h6>最新消息</h6>
 				<a href="#" class="moremore">更多</a>
 			</div>
 
@@ -247,9 +254,10 @@
 				<div class="data_summary">
 					共 123092 筆資料
 				</div>
-				<div class="showlist"><i class="fa fa-th" aria-hidden="true"></i> 圖示顯示</div>
-				<div class="showlist"><i class="fa fa-list" aria-hidden="true"></i> 列表顯示</div>
-
+				<div class="show_switch">
+					<div class="showlist"><i class="fa fa-th" aria-hidden="true"></i> 圖示顯示</div>
+					<div class="showlist"><i class="fa fa-list" aria-hidden="true"></i> 列表顯示</div>
+				</div>
 				<div class="data_select">
 					<select name="" id="">
 						<option value="">依瀏覽次數排列</option>

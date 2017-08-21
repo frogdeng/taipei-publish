@@ -25,10 +25,17 @@
 
 <script>
 	$(document).on('ready', function() {
-		$(".regular").slick({
+		$(".regular-d").slick({
 			dots: false,
 			infinite: true,
 			slidesToShow: 4,
+			slidesToScroll: 3
+		});
+
+		$(".regular-m").slick({
+			dots: false,
+			infinite: true,
+			slidesToShow: 2,
 			slidesToScroll: 3
 		});
 		$(".bookinside").slick({
@@ -318,8 +325,8 @@
 			</div>
 
 
-			<div class="morebooks">
-				  <section class="regular slider">
+			<div class="morebooks-desktop">
+				  <section class="regular-d slider">
 				    <div class="bookitem">
 				    	<img src="img/book01.jpg">
 				    	<p>妖怪推理第一人京極夏彥全新演繹「日本聊齋」—《耳袋》</p>
@@ -351,6 +358,45 @@
 
 				  </section>
 			</div>
+
+
+			<div class="morebooks-mobile">
+				  <section class="regular-m slider">
+				    <div class="bookitem">
+				    	<img src="img/book01.jpg">
+				    	<p>妖怪推理第一人京極夏彥全新演繹「日本聊齋」—《耳袋》</p>
+				    </div>
+				  	<div class="bookitem">
+				    	<img src="img/book01.jpg">
+				    	<p>不存在的房間】奧斯卡影后布麗拉爾森 動人演出</p>
+				    </div>
+				  		<div class="bookitem">
+				    	<img src="img/book01.jpg">
+				    	<p>20世紀最偉大同志先鋒 傳奇人生首次搬上大銀幕</p>
+				    </div>
+				  		<div class="bookitem">
+				    	<img src="img/book01.jpg">
+				    	<p>《過得還不錯的一年》作者教你，從自我期待出發找自己</p>
+				    </div>
+				  		<div class="bookitem">
+				    	<img src="img/book01.jpg">
+				    	<p>小鼠波波大冒險繪本套書，最多人找的書在這裡</p>
+				    </div>
+				  		<div class="bookitem">
+				    	<img src="img/book01.jpg">
+				    	<p>鄭丰出道10週年代表作！獨家書盒簽名藏書票</p>
+				    </div>
+				  		<div class="bookitem">
+				    	<img src="img/book01.jpg">
+				    	<p>專訪職人與貓的故事。附:喵!肉蛋球別冊!</p>
+				    </div>
+
+				  </section>
+			</div>
+
+
+
+
 
 
 

@@ -592,10 +592,43 @@ $susy: (debug: (image: hide))
 
 
 
-.morebooks
+.morebooks-desktop
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		display: none
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		// background-color: #eee
+		display: block
+		margin-bottom: 30px
+		border: 1px solid #c0c0c0
+		padding: 15px
+		.bookitem
+			display: flex
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			img
+				width: 100%
+				margin-bottom: 5px
+				border: 1px solid #eee
+
+			p
+				font-size: 14px
+				color: #666
+				line-height: 1.3
+		.slick-slide
+			margin: 0px 20px
+
+
+.morebooks-mobile
 	+susy-breakpoint($breakpoint_pad, $pad)
 		+container
 		// background-color: #eee
+		display: block
+
 		margin: 0 20px
 		margin-bottom: 30px
 		border: 1px solid #c0c0c0
@@ -620,26 +653,7 @@ $susy: (debug: (image: hide))
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
 		+container
-		// background-color: #eee
-		margin-bottom: 30px
-		border: 1px solid #c0c0c0
-		padding: 15px
-		.bookitem
-			display: flex
-			flex-direction: column
-			justify-content: center
-			align-items: center
-			img
-				width: 100%
-				margin-bottom: 5px
-				border: 1px solid #eee
-
-			p
-				font-size: 14px
-				color: #666
-				line-height: 1.3
-		.slick-slide
-			margin: 0px 20px
+		display: none
 
 
 

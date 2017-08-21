@@ -25,10 +25,17 @@
 
 <script>
 	$(document).on('ready', function() {
-		$(".regular").slick({
+		$(".regular-d").slick({
 			dots: false,
 			infinite: true,
 			slidesToShow: 4,
+			slidesToScroll: 3
+		});
+
+		$(".regular-m").slick({
+			dots: false,
+			infinite: true,
+			slidesToShow: 2,
 			slidesToScroll: 3
 		});
 		$(".bookinside").slick({

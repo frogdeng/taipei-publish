@@ -25,10 +25,17 @@
 
 <script>
 	$(document).on('ready', function() {
-		$(".regular").slick({
+		$(".regular-d").slick({
 			dots: false,
 			infinite: true,
 			slidesToShow: 4,
+			slidesToScroll: 3
+		});
+
+		$(".regular-m").slick({
+			dots: false,
+			infinite: true,
+			slidesToShow: 2,
 			slidesToScroll: 3
 		});
 		$(".bookinside").slick({
@@ -134,7 +141,11 @@
 			</section>
 		</div>
 		<div class="news_items">
-			<h6>最新消息</h6>
+			<div class="news_t">
+				<h6>最新消息</h6>
+				<a href="#" class="moremore">更多</a>
+			</div>
+
 			<div class="news_title">
 				<div class="t-tt"><a href="">捷運各站分時進出站OD資料開放，歡迎下載應用!</a></div>
 				<p>2017/03/15</p>
