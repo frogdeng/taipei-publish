@@ -793,6 +793,7 @@ a {
     width: 95%;
     position: absolute;
     left: -95%;
+    z-index: 5000;
     transition: all .3s; }
   .data_container .classification_screening .aside_close {
     display: block;
