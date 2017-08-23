@@ -561,7 +561,7 @@ $susy: (debug: (image: hide))
 				padding: 20px
 				display: flex
 				justify-content: space-between
-				align-items: center
+				align-items: flex-start
 				border-bottom: 1px solid #eee
 
 				.t-text
@@ -573,6 +573,19 @@ $susy: (debug: (image: hide))
 					color: #222
 					font-size: 14px
 					color: #888
+				a
+					display: block
+					margin-bottom: 12px
+					color: #666
+					padding: 5px 8px
+					transition: all .3s
+					&:hover
+						color: #326c9c
+						text-decoration: underline
+
+						// background: #eee
+						// border-bottom: 1px solid #eee
+
 				img
 					width: 45px
 					cursor: pointer
