@@ -382,7 +382,7 @@ a {
   .breac_crumbs a {
     font-size: 16px;
     margin-right: 10px;
-    color: #888; } }
+    color: #555; } }
 
 @media (min-width: 891px) {
   .breac_crumbs {
@@ -395,7 +395,7 @@ a {
     margin-top: 20px;
     display: -ms-flexbox;
     display: flex;
-    color: #888;
+    color: #555;
     -ms-flex-pack: start;
     justify-content: flex-start;
     -ms-flex-align: center;
@@ -668,7 +668,7 @@ a {
     width: 80%;
     font-size: 16px;
     margin-bottom: 20px;
-    color: #888;
+    color: #555;
     margin-right: 10px; }
   .data_collection .show_switch {
     display: -ms-flexbox;
@@ -684,7 +684,7 @@ a {
     height: 30px;
     background: #eee;
     cursor: pointer;
-    color: #888;
+    color: #555;
     margin-right: 13px;
     margin-bottom: 20px;
     font-size: 14px;
@@ -742,7 +742,7 @@ a {
   .data_collection .data_summary {
     width: 30%;
     font-size: 16px;
-    color: #888;
+    color: #555;
     margin-right: 20px; }
   .data_collection .show_switch {
     display: -ms-flexbox;
@@ -758,7 +758,7 @@ a {
     height: 30px;
     background: #eee;
     cursor: pointer;
-    color: #888;
+    color: #555;
     margin-right: 13px;
     font-size: 14px;
     display: -ms-flexbox;
@@ -1346,7 +1346,7 @@ a {
     clear: both; }
   .detail_contnet h2 {
     font-size: 25px;
-    color: #888;
+    color: #555;
     line-height: 1.2;
     font-weight: 400; }
   .detail_contnet h6 {
@@ -1476,7 +1476,7 @@ a {
     clear: both; }
   .detail_contnet h2 {
     font-size: 30px;
-    color: #888;
+    color: #555;
     line-height: 1.2;
     font-weight: 400; }
   .detail_contnet h6 {
@@ -1639,7 +1639,7 @@ a {
     font-size: 16px;
     padding: 5px 0px;
     line-height: 1.4;
-    color: #888; }
+    color: #555; }
   .require_data .row {
     padding: 8px 0;
     transition: all .3s; }
@@ -1671,7 +1671,7 @@ a {
     height: 30px;
     padding: 0 5px;
     font-size: 14px;
-    color: #888;
+    color: #555;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
@@ -1710,7 +1710,7 @@ a {
     font-size: 16px;
     padding: 5px 0px;
     line-height: 1.4;
-    color: #888; }
+    color: #555; }
   .require_data .row {
     padding: 8px 0;
     transition: all .3s; }
@@ -1739,7 +1739,7 @@ a {
     margin-right: 0.83333%;
     padding: 0 5px;
     font-size: 14px;
-    color: #888;
+    color: #555;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -1779,10 +1779,10 @@ a {
   .suggest_form p {
     font-size: 16px;
     margin-bottom: 5px;
-    color: #888; }
+    color: #555; }
   .suggest_form .input_row {
     font-size: 16px;
-    color: #888;
+    color: #555;
     margin-bottom: 20px;
     display: -ms-flexbox;
     display: flex;
@@ -1842,10 +1842,10 @@ a {
   .suggest_form p {
     font-size: 16px;
     margin-bottom: 5px;
-    color: #888; }
+    color: #555; }
   .suggest_form .input_row {
     font-size: 16px;
-    color: #888;
+    color: #555;
     margin-bottom: 20px;
     display: -ms-flexbox;
     display: flex;
@@ -1999,7 +1999,7 @@ a {
   .applicaitons .exsample p {
     font-size: 14px;
     line-height: 1.4;
-    color: #888;
+    color: #555;
     text-align: center; } }
 
 @media (min-width: 891px) {
@@ -2028,7 +2028,7 @@ a {
   .applicaitons .exsample p {
     font-size: 14px;
     line-height: 1.4;
-    color: #888;
+    color: #555;
     text-align: center; } }
 
 @media (min-width: 0) and (max-width: 890px) {
@@ -2064,7 +2064,7 @@ a {
     font-size: 16px;
     line-height: 1.4;
     margin-bottom: 20px;
-    color: #888;
+    color: #555;
     text-align: left; }
   .app_detail .app_description .ll {
     height: 5px;
@@ -2123,7 +2123,7 @@ a {
     font-size: 16px;
     line-height: 1.4;
     margin-bottom: 20px;
-    color: #888;
+    color: #555;
     text-align: left; }
   .app_detail .app_description .ll {
     height: 5px;
@@ -2212,13 +2212,13 @@ a {
     margin-bottom: 10px; }
   .q-a h5 {
     font-size: 14px;
-    color: #888;
+    color: #555;
     line-height: 1.4;
     font-weight: 400;
     margin-bottom: 10px; }
   .q-a p {
     font-size: 16px;
-    color: #888;
+    color: #555;
     line-height: 1.5;
     margin-bottom: 0px; }
   .q-a a {
@@ -2264,13 +2264,13 @@ a {
     margin-bottom: 10px; }
   .q-a h5 {
     font-size: 14px;
-    color: #888;
+    color: #555;
     line-height: 1.4;
     font-weight: 400;
     margin-bottom: 10px; }
   .q-a p {
     font-size: 16px;
-    color: #888;
+    color: #555;
     line-height: 1.5;
     margin-bottom: 0px; }
   .q-a a {
@@ -2445,12 +2445,12 @@ a {
     border-bottom: 1px solid #eee; }
   .news_info .news_cross .news_items .news_title .t-tt {
     font-size: 16px;
-    color: #888; }
+    color: #555; }
   .news_info .news_cross .news_items .news_title .t-tt a {
-    color: #888; }
+    color: #555; }
   .news_info .news_cross .news_items .news_title p {
     font-size: 16px;
-    color: #888; } }
+    color: #555; } }
 
 @media (min-width: 891px) {
   .news_info {
@@ -2511,15 +2511,15 @@ a {
     border-bottom: 1px solid #eee; }
   .news_info .news_cross .news_items .news_title .t-tt {
     font-size: 16px;
-    color: #888;
+    color: #555;
     margin-right: 20px; }
   .news_info .news_cross .news_items .news_title .t-tt a {
-    color: #888; }
+    color: #555; }
   .news_info .news_cross .news_items .news_title .t-tt a:hover {
     color: #222; }
   .news_info .news_cross .news_items .news_title p {
     font-size: 16px;
-    color: #888;
+    color: #555;
     margin-right: 20px; } }
 
 @media (min-width: 0) and (max-width: 890px) {
@@ -2555,7 +2555,7 @@ a {
     font-size: 14px;
     padding: 5px 0px;
     line-height: 1.2;
-    color: #888; } }
+    color: #555; } }
 
 @media (min-width: 891px) {
   .data_detail_table {
@@ -2589,7 +2589,7 @@ a {
     font-size: 16px;
     padding: 5px 0px;
     line-height: 1.2;
-    color: #888; } }
+    color: #555; } }
 
 @media (min-width: 0) and (max-width: 890px) {
   .bookcover {
@@ -2706,7 +2706,7 @@ a {
     padding: 3px 18px;
     float: left;
     font-size: 14px;
-    color: #888;
+    color: #555;
     margin-right: 10px;
     margin-bottom: 8px; }
   .bookinfo .description {
@@ -2730,7 +2730,7 @@ a {
     font-size: 16px;
     padding: 5px 0px;
     line-height: 1.4;
-    color: #888; }
+    color: #555; }
   .bookinfo .bookfiles {
     border: 1px solid #eee;
     margin-top: 30px;
@@ -2773,7 +2773,7 @@ a {
     color: #222; }
   .bookinfo .bookfiles .download_total .t-start .t-text p {
     font-size: 14px;
-    color: #888; }
+    color: #555; }
   .bookinfo .bookfiles .download_total .downloadicon {
     display: block;
     width: 100%;
@@ -2814,7 +2814,7 @@ a {
     width: 50%;
     color: #222;
     font-size: 14px;
-    color: #888; }
+    color: #555; }
   .bookinfo .bookfiles .issue_contnet img {
     width: 40px;
     cursor: pointer; }
@@ -2880,7 +2880,7 @@ a {
     padding: 3px 18px;
     float: left;
     font-size: 14px;
-    color: #888;
+    color: #555;
     margin-right: 10px;
     margin-bottom: 8px; }
   .bookinfo .description {
@@ -2904,7 +2904,7 @@ a {
     font-size: 16px;
     padding: 5px 0px;
     line-height: 1.4;
-    color: #888; }
+    color: #555; }
   .bookinfo .bookfiles {
     border: 1px solid #eee;
     margin-top: 30px;
@@ -2945,7 +2945,7 @@ a {
     color: #222; }
   .bookinfo .bookfiles .download_total .t-start .t-text p {
     font-size: 14px;
-    color: #888; }
+    color: #555; }
   .bookinfo .bookfiles .download_total .downloadicon {
     display: block;
     width: 200px;
@@ -2989,7 +2989,7 @@ a {
     width: 70%;
     color: #222;
     font-size: 14px;
-    color: #888; }
+    color: #555; }
   .bookinfo .bookfiles .issue_contnet a {
     display: block;
     margin-bottom: 12px;
@@ -3246,7 +3246,7 @@ body {
   line-height: 1.5; }
 
 a {
-  color: #888; }
+  color: #555; }
 
 .clear {
   clear: both; }
