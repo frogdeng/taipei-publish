@@ -780,7 +780,162 @@ $susy: (debug: (image: hide))
 
 
 
+.read_container
+	+susy-breakpoint($breakpoint_pad, $pad)
+		+container
+		padding: 0 20px
+		margin-bottom: 40px
+		h4
+			font-size: 28px
+			color: #0e61a5
+			padding-bottom: 10px
+			margin-bottom: 30px
+			border-bottom: 1px solid #eee
+		.aside_image
+			+span(6)
+			margin-bottom: 20px
 
+		.read_text
+			+span(6)
+			padding: 0px
+			p
+				color: #555
+				font-size: 16px
+				margin-bottom: 20px
+
+		.t-message
+			padding: 0 20px
+			font-size: 30px
+			color: #888
+			border-bottom: 1px solid #eee
+			margin-bottom: 30px
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			align-items: center
+			.count
+				font-size: 14px
+				span
+					color: #0e61a5
+					font-size: 16px
+		.read_list
+			padding: 0 20px
+			width: 100%
+			padding-bottom: 15px
+			margin-bottom: 30px
+			border-bottom: 1px solid #eee
+			display: flex
+			flex-direction: column
+			align-items: flex-start
+			justify-content: center
+			.photo
+				width: 100%
+				margin-right: 0px
+				margin-bottom: 20px
+				img
+					width: 100%
+			.read_des
+				h5
+					font-size: 23px
+					color: #0e61a5
+					margin-bottom: 10px
+				h6
+					font-size: 13px
+					color: #888
+					margin-bottom: 10px
+				p
+					font-size: 16px
+					color: #555
+				.readmore
+					display: block
+					color: #0e61a5
+					border: 1px solid #0e61a5
+					padding: 5px 10px
+					float: right
+					font-weight: 400
+					margin-top: 20px
+					transition: all .3s
+					&:hover
+						background: #0e61a5
+						color: #FFF
+
+
+
+	+susy-breakpoint($breakpoint_desktop, $desktop)
+		+container
+		padding: 0 20px
+		margin-bottom: 40px
+		h4
+			font-size: 28px
+			color: #0e61a5
+			padding-bottom: 10px
+			margin-bottom: 30px
+			border-bottom: 1px solid #eee
+		.aside_image
+			+span(3.5)
+			margin-bottom: 20px
+		.read_text
+			+span(8.5)
+			padding: 0 10px
+			p
+				color: #555
+				font-size: 16px
+				margin-bottom: 20px
+		.t-message
+			padding: 0 20px
+			font-size: 30px
+			color: #888
+			border-bottom: 1px solid #eee
+			margin-bottom: 30px
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			align-items: center
+			.count
+				float: right
+				font-size: 14px
+				span
+					color: #0e61a5
+					font-size: 16px
+		.read_list
+			padding: 0 20px
+			width: 100%
+			padding-bottom: 15px
+			margin-bottom: 30px
+			border-bottom: 1px solid #eee
+			display: flex
+			flex-direction: row
+			align-items: flex-start
+			justify-content: center
+			.photo
+				width: 30%
+				margin-right: 30px
+				margin-bottom: 20px
+			.read_des
+				width: 70%
+				h5
+					font-size: 23px
+					color: #0e61a5
+					margin-bottom: 10px
+				h6
+					font-size: 13px
+					color: #888
+					margin-bottom: 10px
+				p
+					font-size: 16px
+					color: #555
+				.readmore
+					display: block
+					color: #0e61a5
+					border: 1px solid #0e61a5
+					padding: 5px 10px
+					float: right
+					font-weight: 400
+					margin-top: 20px
+					transition: all .3s
+					&:hover
+						background: #0e61a5
+						color: #FFF
 
 
 
