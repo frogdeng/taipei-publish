@@ -3053,9 +3053,11 @@ a {
     align-items: center; }
   .morebooks-desktop .bookitem img {
     width: 100%;
+    max-height: 195px;
     margin-bottom: 5px;
     border: 1px solid #eee; }
   .morebooks-desktop .bookitem p {
+    width: 100%;
     font-size: 14px;
     color: #666;
     line-height: 1.3; }
@@ -3192,6 +3194,7 @@ a {
     align-items: center; }
   .book_shelf .s-shelf .shelf_w {
     width: 90%;
+    max-height: 170px;
     margin-left: 50px; }
   .book_shelf .s-shelf .shelf_w .b-book {
     width: 18.33333%;
@@ -3223,6 +3226,7 @@ a {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
+    left: 0;
     bottom: -50%;
     transition: all .3s; }
   .book_shelf .s-shelf .shelf_w .b-book .bookname p {
@@ -3231,7 +3235,8 @@ a {
   .book_shelf .s-shelf .shelf_w .b-book img {
     display: block;
     border: 1px solid #eee;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
   .book_shelf .s-shelf .shelf_w .b-book:hover {
     transform: scale(1.08); }
   .book_shelf .s-shelf .shelf_w .b-book:hover .bookname {
