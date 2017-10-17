@@ -190,8 +190,6 @@ a {
     padding: 10px;
     font-size: 20px;
     color: #222; }
-  .index_container .input_wrapper ::-webkit-input-placeholder {
-    color: #c0c0c0; }
   .index_container .input_wrapper :-ms-input-placeholder {
     color: #c0c0c0; }
   .index_container .input_wrapper ::placeholder {
@@ -253,8 +251,6 @@ a {
     padding: 10px;
     font-size: 20px;
     color: #222; }
-  .index_container .input_wrapper ::-webkit-input-placeholder {
-    color: #c0c0c0; }
   .index_container .input_wrapper :-ms-input-placeholder {
     color: #c0c0c0; }
   .index_container .input_wrapper ::placeholder {
@@ -531,10 +527,6 @@ a {
     font-size: 18px;
     color: #555;
     padding: 10px; }
-  .data_search_i .search ::-webkit-input-placeholder {
-    padding: 5px;
-    color: #999;
-    font-size: 18px; }
   .data_search_i .search :-ms-input-placeholder {
     padding: 5px;
     color: #999;
@@ -592,10 +584,6 @@ a {
     font-size: 18px;
     color: #555;
     padding: 10px; }
-  .data_search_i .search ::-webkit-input-placeholder {
-    padding: 5px;
-    color: #999;
-    font-size: 18px; }
   .data_search_i .search :-ms-input-placeholder {
     padding: 5px;
     color: #999;
@@ -978,10 +966,6 @@ a {
     height: 35px;
     width: 100%;
     padding: 5px; }
-  .post_classification .toolbox .box_display .boxsearch ::-webkit-input-placeholder {
-    color: #999;
-    font-size: 14px;
-    padding: 5px; }
   .post_classification .toolbox .box_display .boxsearch :-ms-input-placeholder {
     color: #999;
     font-size: 14px;
@@ -1084,10 +1068,6 @@ a {
   .post_classification .toolbox .box_display .boxsearch input[type=text] {
     height: 35px;
     width: 100%;
-    padding: 5px; }
-  .post_classification .toolbox .box_display .boxsearch ::-webkit-input-placeholder {
-    color: #999;
-    font-size: 14px;
     padding: 5px; }
   .post_classification .toolbox .box_display .boxsearch :-ms-input-placeholder {
     color: #999;
@@ -2327,8 +2307,6 @@ a {
     width: 80%;
     height: 40px;
     padding-left: 10px; }
-  .search_area ::-webkit-input-placeholder {
-    color: #c0c0c0; }
   .search_area :-ms-input-placeholder {
     color: #c0c0c0; }
   .search_area ::placeholder {
@@ -2368,8 +2346,6 @@ a {
     width: 900px;
     height: 40px;
     padding-left: 10px; }
-  .search_area ::-webkit-input-placeholder {
-    color: #c0c0c0; }
   .search_area :-ms-input-placeholder {
     color: #c0c0c0; }
   .search_area ::placeholder {
@@ -3053,9 +3029,11 @@ a {
     align-items: center; }
   .morebooks-desktop .bookitem img {
     width: 100%;
+    max-height: 195px;
     margin-bottom: 5px;
     border: 1px solid #eee; }
   .morebooks-desktop .bookitem p {
+    width: 100%;
     font-size: 14px;
     color: #666;
     line-height: 1.3; }
@@ -3192,6 +3170,7 @@ a {
     align-items: center; }
   .book_shelf .s-shelf .shelf_w {
     width: 90%;
+    max-height: 170px;
     margin-left: 50px; }
   .book_shelf .s-shelf .shelf_w .b-book {
     width: 18.33333%;
@@ -3223,6 +3202,7 @@ a {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
+    left: 0;
     bottom: -50%;
     transition: all .3s; }
   .book_shelf .s-shelf .shelf_w .b-book .bookname p {
@@ -3231,7 +3211,8 @@ a {
   .book_shelf .s-shelf .shelf_w .b-book img {
     display: block;
     border: 1px solid #eee;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
   .book_shelf .s-shelf .shelf_w .b-book:hover {
     transform: scale(1.08); }
   .book_shelf .s-shelf .shelf_w .b-book:hover .bookname {
@@ -3516,8 +3497,8 @@ a {
   header .aside ul li .m-first {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -ms-flex-align: center;
     align-items: center;
     height: 50px;
@@ -3528,9 +3509,18 @@ a {
     font-size: 16px;
     font-weight: 700;
     border-bottom: 1px solid #555; }
-  header .aside ul li .m-first i {
-    font-size: 20px;
-    margin-right: 10px; }
+  header .aside ul li .m-first .go_submenu {
+    width: 45px;
+    height: 45px;
+    background: #222;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  header .aside ul li .m-first .go_submenu i {
+    font-size: 30px; }
   header .aside ul li .m-second_bg {
     position: absolute;
     width: 100%;
@@ -3561,14 +3551,14 @@ a {
   header .aside ul li .m-second_bg ul {
     position: absolute;
     width: 100%;
-    top: -20px; }
+    top: 13px; }
   header .aside ul li .m-second_bg ul li .m-second {
     display: block;
     height: 50px;
     width: 100%;
     padding: 0 0 0 30px;
     line-height: 1.4;
-    color: #999;
+    color: #c0c0c0;
     font-size: 15px;
     border-bottom: 1px solid #555;
     display: -ms-flexbox;
