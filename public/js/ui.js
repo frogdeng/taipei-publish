@@ -1,8 +1,15 @@
 
 $(function(){
 
-	$('.deskmenu ul').hover(
 
+	var _height = $("footer").offset().top;
+    if( _height < 500){
+      $('.footer_wrapper').addClass("mtvh");
+    }
+
+
+
+	$('.deskmenu ul').hover(
 		function() {
 			if($('.sub_a').length > 0 ){
 				$('.submenu').addClass('submenu-open')
