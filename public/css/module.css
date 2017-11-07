@@ -3214,7 +3214,8 @@ a {
     height: 225px;
     cursor: pointer; }
   .book_shelf .s-shelf .shelf_w .b-book img {
-    position: absolute; }
+    position: absolute;
+    bottom: 0; }
   .book_shelf .s-shelf .shelf_w .b-book .bookname {
     position: absolute;
     width: 100%;
