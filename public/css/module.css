@@ -3214,8 +3214,11 @@ a {
     height: 225px;
     cursor: pointer; }
   .book_shelf .s-shelf .shelf_w .b-book img {
+    display: block;
     position: absolute;
-    bottom: 0; }
+    width: 100%;
+    bottom: 0;
+    border: 1px solid #eee; }
   .book_shelf .s-shelf .shelf_w .b-book .bookname {
     position: absolute;
     width: 100%;
@@ -3236,11 +3239,6 @@ a {
   .book_shelf .s-shelf .shelf_w .b-book .bookname p {
     font-size: 12px;
     line-height: 1.2; }
-  .book_shelf .s-shelf .shelf_w .b-book img {
-    display: block;
-    border: 1px solid #eee;
-    width: 100%;
-    height: auto; }
   .book_shelf .s-shelf .shelf_w .b-book:hover {
     transform: scale(1.08); }
   .book_shelf .s-shelf .shelf_w .b-book:hover .bookname {

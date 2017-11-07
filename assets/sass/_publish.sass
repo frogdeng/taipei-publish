@@ -762,9 +762,11 @@ $susy: (debug: (image: hide))
 					// overflow: visible
 					cursor: pointer
 					img
-						display: 
+						display: block
 						position: absolute
+						width: 100%
 						bottom: 0
+						border: 1px solid #eee
 					.bookname
 						position: absolute
 						width: 100%
@@ -782,12 +784,7 @@ $susy: (debug: (image: hide))
 						p
 							font-size: 12px
 							line-height: 1.2
-					img
-						display: block
-						border: 1px solid #eee
-						width: 100%
-						height: auto
-						// // height: 170px
+
 					&:hover
 						transform: scale(1.08)
 						.bookname
