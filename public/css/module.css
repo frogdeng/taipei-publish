@@ -190,8 +190,6 @@ a {
     padding: 10px;
     font-size: 20px;
     color: #222; }
-  .index_container .input_wrapper ::-webkit-input-placeholder {
-    color: #c0c0c0; }
   .index_container .input_wrapper :-ms-input-placeholder {
     color: #c0c0c0; }
   .index_container .input_wrapper ::placeholder {
@@ -253,8 +251,6 @@ a {
     padding: 10px;
     font-size: 20px;
     color: #222; }
-  .index_container .input_wrapper ::-webkit-input-placeholder {
-    color: #c0c0c0; }
   .index_container .input_wrapper :-ms-input-placeholder {
     color: #c0c0c0; }
   .index_container .input_wrapper ::placeholder {
@@ -531,10 +527,6 @@ a {
     font-size: 18px;
     color: #555;
     padding: 10px; }
-  .data_search_i .search ::-webkit-input-placeholder {
-    padding: 5px;
-    color: #999;
-    font-size: 18px; }
   .data_search_i .search :-ms-input-placeholder {
     padding: 5px;
     color: #999;
@@ -592,10 +584,6 @@ a {
     font-size: 18px;
     color: #555;
     padding: 10px; }
-  .data_search_i .search ::-webkit-input-placeholder {
-    padding: 5px;
-    color: #999;
-    font-size: 18px; }
   .data_search_i .search :-ms-input-placeholder {
     padding: 5px;
     color: #999;
@@ -978,10 +966,6 @@ a {
     height: 35px;
     width: 100%;
     padding: 5px; }
-  .post_classification .toolbox .box_display .boxsearch ::-webkit-input-placeholder {
-    color: #999;
-    font-size: 14px;
-    padding: 5px; }
   .post_classification .toolbox .box_display .boxsearch :-ms-input-placeholder {
     color: #999;
     font-size: 14px;
@@ -1084,10 +1068,6 @@ a {
   .post_classification .toolbox .box_display .boxsearch input[type=text] {
     height: 35px;
     width: 100%;
-    padding: 5px; }
-  .post_classification .toolbox .box_display .boxsearch ::-webkit-input-placeholder {
-    color: #999;
-    font-size: 14px;
     padding: 5px; }
   .post_classification .toolbox .box_display .boxsearch :-ms-input-placeholder {
     color: #999;
@@ -2327,8 +2307,6 @@ a {
     width: 80%;
     height: 40px;
     padding-left: 10px; }
-  .search_area ::-webkit-input-placeholder {
-    color: #c0c0c0; }
   .search_area :-ms-input-placeholder {
     color: #c0c0c0; }
   .search_area ::placeholder {
@@ -2368,8 +2346,6 @@ a {
     width: 900px;
     height: 40px;
     padding-left: 10px; }
-  .search_area ::-webkit-input-placeholder {
-    color: #c0c0c0; }
   .search_area :-ms-input-placeholder {
     color: #c0c0c0; }
   .search_area ::placeholder {
@@ -2510,6 +2486,7 @@ a {
     padding: 8px 0;
     border-bottom: 1px solid #eee; }
   .news_info .news_cross .news_items .news_title .t-tt {
+    width: 75%;
     font-size: 16px;
     color: #555;
     margin-right: 20px; }
@@ -2519,6 +2496,8 @@ a {
     color: #222; }
   .news_info .news_cross .news_items .news_title p {
     font-size: 16px;
+    width: 100px;
+    text-align: right;
     color: #555;
     margin-right: 20px; } }
 
@@ -3218,6 +3197,7 @@ a {
     position: absolute;
     width: 100%;
     bottom: 0;
+    left: 0;
     border: 1px solid #eee; }
   .book_shelf .s-shelf .shelf_w .b-book .bookname {
     position: absolute;
