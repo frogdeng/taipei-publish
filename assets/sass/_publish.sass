@@ -713,7 +713,7 @@ $susy: (debug: (image: hide))
 					overflow: hidden
 					cursor: pointer
 					margin-bottom: 20px
-
+					height: 200px
 					.bookname
 						position: absolute
 						width: 100%
@@ -731,9 +731,13 @@ $susy: (debug: (image: hide))
 							font-size: 12px
 							line-height: 1.2
 					img
+						position: absolute
 						display: block
 						border: 1px solid #eee
 						width: 100%
+						height: 100%
+						top: 0
+						object-fit: cover
 
 
 	+susy-breakpoint($breakpoint_desktop, $desktop)
