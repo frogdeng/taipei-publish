@@ -82,8 +82,15 @@ $susy: (debug: (image: hide))
 			.news_slider
 				+span(6)
 				margin-bottom: 20px
+				height: 250px
 				.new_photo
+					position: relative
+					overflow: hidden
+					height: 250px
+					// background: #222
 					img
+						position: absolute
+						
 					 	width: 100%
 
 			.news_items
@@ -132,9 +139,17 @@ $susy: (debug: (image: hide))
 			.news_slider
 				+span(5)
 				+pre(.5)
+				height: 200px	
 				.new_photo
+					position: relative
+					overflow: hidden
+					height: 250px
+					// background: #222
 					img
+						position: absolute
+						
 					 	width: 100%
+					 	
 
 			.news_items
 				+span(6 omega)
