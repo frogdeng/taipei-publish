@@ -2448,7 +2448,8 @@ a {
     clear: both; }
   .news_info .news_cross {
     border: 1px solid #eee;
-    padding: 20px; }
+    padding: 20px;
+    height: 310px; }
   .news_info .news_cross h6 {
     font-size: 25px;
     color: #0e61a5; }
@@ -2501,7 +2502,10 @@ a {
     width: 75%;
     font-size: 16px;
     color: #555;
-    margin-right: 20px; }
+    margin-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
   .news_info .news_cross .news_items .news_title .t-tt a {
     color: #555; }
   .news_info .news_cross .news_items .news_title .t-tt a:hover {
